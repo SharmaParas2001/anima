@@ -1,0 +1,61 @@
+/* AnimeDetail.css */
+.anime2 {
+    background-color: #1f1f1f;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.anime2-img {
+    width: 100%;
+    max-height: 35rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.anime-title2 {
+    display: block;
+    text-align: center !important;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #facccc;
+}
+
+.anime-title-japanese,
+.anime-year2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #facccc;
+}
+
+.anime-synopsis {
+    color: #facccc;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.anime-trailer {
+    text-decoration: none;
+}
+
+.anime-btn {
+    background-color: red;
+    height: 3rem;
+    width: 10rem;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anime-btn:hover {
+    transform: translate(-10px) scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
